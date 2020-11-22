@@ -150,8 +150,27 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-new SlimSelect({
-  select: '#single'
+var select = new SlimSelect({
+  select: '#select-innerHTML',
+  valuesUseText: false,
+  // Use text instead of innerHTML for selected values - default false
+  data: [{
+    innerHTML: '<a href="#" class="languages__link languages__link--ru"><span>Russian</span></a>',
+    text: '',
+    value: 'Russian'
+  }, {
+    innerHTML: '<a href="#" class="languages__link languages__link--en"><span>English</span></a>',
+    text: '',
+    value: 'English'
+  }, {
+    innerHTML: '<a href="#" class="languages__link languages__link--il"><span>עִבְרִית</span></a>',
+    text: '',
+    value: 'עִבְרִית'
+  }, {
+    innerHTML: '<a href="#" class="languages__link languages__link--ar"><span>العربية</span></a>',
+    text: '',
+    value: 'العربية'
+  }]
 });
 var buttonChangeTheme = document.querySelector(".change-theme");
 var bodyBlock = document.querySelector("body");

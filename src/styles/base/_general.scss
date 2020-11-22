@@ -831,7 +831,7 @@ main {
     margin-right: 400px;
 
     @media screen and (min-width: 1440px) {
-        margin-right: 355px;
+        margin-right: 500px;
     }
 
     @media screen and (min-width: 1024px) {
@@ -850,35 +850,25 @@ main {
 .languages__list {
     width: 70px;
 
-    .languages__item {
-        &.languages__item--en {
+    .languages__link {
+        display: block;
+        font-size: 14px;
+        color: slategrey;
+        text-decoration: none;
+
+        &.languages__link--en {
             color: #21BBFE;
         }
 
-        &.languages__item--il {
+        &.languages__link--il {
             color: #1A7BFF;
         }
 
-        &.languages__item--ar {
+        &.languages__link--ar {
             color: #149B6A;
         }
     }
     
-    .language {
-        a {
-            display: block;
-            padding: 5px 10px;
-            font-size: 14px;
-            color: slategrey;
-            text-decoration: none;
-            transition: .3s ease all;
-
-            &:hover {
-                background-color: #dbdbdb;
-            }
-        }
-    }
-
     &.close {
         display: none;
         transition: .3s ease all;
@@ -1779,5 +1769,13 @@ main {
 
     .form__text {
         color: rgba(255, 255, 255, 0.6) !important;
+    }
+
+    .ss-content {
+        box-shadow: -10px -10px 30px rgba(56, 56, 56, 0.7), 10px 10px 30px #000000;
+    }
+
+    .ss-content .ss-list .ss-option.ss-disabled {
+        background-color: #393939;
     }
 }
