@@ -21,11 +21,17 @@ $gray: #a8a8a8;
     100% {
         transform: rotate(360deg);
     }
-    50% {
-        transform: rotate(180deg);
-    }
+}
+
+@keyframes right-ease {
     100% {
-        transform: rotate(360deg);
+        left: 105px;
+    }
+}
+
+@keyframes left-ease {
+    100% {
+        left: 6px;
     }
 }
 

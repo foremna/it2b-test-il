@@ -161,6 +161,13 @@ buttonChangeTheme.addEventListener("click", function () {
   bodyBlock.classList.toggle("page-light");
   bodyBlock.classList.toggle("page-dark");
 });
+var hamburger = document.querySelector(".hamburger");
+var menu = document.querySelector(".menu");
+hamburger.addEventListener("click", function () {
+  this.classList.toggle("hamburger--open");
+  this.classList.toggle("hamburger--close");
+  menu.classList.toggle("menu--close");
+});
 
 /***/ })
 
