@@ -37,9 +37,40 @@
         <header>
             <div class="header container">
                 <a href="#" class="logotype"><img class="logotype__logo" src="./img/svg/logo.svg" alt="Логотип компании it2b"></a>
-            </nav>
-            <div class="languages">
-                <select id="select-innerHTML" class="languages__list"></select>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#about" class="menu__link"><span>О нас</span></a></li>
+                        <li class="menu__item"><a href="#services" class="menu__link"><span>Услуги</span></a></li>
+                        <li class="menu__item"><a href="#contact" class="menu__link"><span>Контакты</span></a></li>
+                    </ul>
+                </nav>
+                <div class="languages">
+                    <div class="languages">
+                        <select id="select-innerHTML" class="languages__list"></select>
+                    </div>
+                </div>
+                <button class="change-theme change-theme--light">
+                    <svg class="moon">
+                        <use xlink:href="./img/svg/sprites.svg#moon"></use>
+                    </svg>
+                    <svg class="sun">
+                        <use xlink:href="./img/svg/sprites.svg#sun"></use>
+                    </svg>
+                </button>
+                <button class="accessibility">
+                    <svg class="eye">
+                        <use xlink:href="./img/svg/sprites.svg#eye"></use>
+                    </svg>
+                    <svg class="eye-big">
+                        <use xlink:href="./img/svg/sprites.svg#eye-big"></use>
+                    </svg>
+                    <svg class="eye-black">
+                        <use xlink:href="./img/svg/sprites.svg#eye-black"></use>
+                    </svg>
+                    <svg class="eye-black-big">
+                        <use xlink:href="./img/svg/sprites.svg#eye-black-big"></use>
+                    </svg>
+                </button>
             </div>
         </header>
 
