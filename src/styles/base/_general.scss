@@ -316,7 +316,7 @@ main {
     }
 
     @media screen and (min-width: 320px) {
-        top: 366px;
+        top: 257px;
         left: -49px;
         width: 188px;
         height: 213px;
@@ -935,7 +935,7 @@ main {
         }
     
         @media screen and (min-width: 320px) {
-            display: none;
+            display: none !important;
         }
     }
 }
@@ -1018,8 +1018,8 @@ main {
             &:before {
                 width: 221px;
                 height: 221px;
-                top: -61px;
-                left: -61px;
+                top: -60px;
+                left: -60px;
             }
         }
 
@@ -1027,8 +1027,8 @@ main {
             &:before {
                 width: 218px;
                 height: 218px;
-                top: -67px;
-                left: -62px;
+                top: -62px;
+                left: -63px;
             }
         }
 
@@ -1036,8 +1036,8 @@ main {
             &:before {
                 width: 130px;
                 height: 130px;
-                top: -37px;
-                left: -35px;
+                top: -34px;
+                left: -34px;
             }
         }
     }
@@ -1684,9 +1684,16 @@ main {
 
     .input-container {
         input {
+            color: #FFFFFF;
             caret-color: rgba(255, 255, 255, 0.6);
 
             &:focus {
+                +.title-input {
+                    background-color: #252525;
+                }
+            }
+
+            &:not(:placeholder-shown) {
                 +.title-input {
                     background-color: #252525;
                 }
@@ -1700,9 +1707,16 @@ main {
 
     .textarea-container {
         textarea {
+            color: #FFFFFF;
             caret-color: rgba(255, 255, 255, 0.6);
 
             &:focus {
+                +.title-input {
+                    background-color: #252525;
+                }
+            }
+
+            &:not(:placeholder-shown) {
                 +.title-input {
                     background-color: #252525;
                 }
