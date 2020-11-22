@@ -368,29 +368,23 @@ main {
   width: 70px;
 }
 
-.languages__list .languages__item.languages__item--en {
-  color: #21BBFE;
-}
-
-.languages__list .languages__item.languages__item--il {
-  color: #1A7BFF;
-}
-
-.languages__list .languages__item.languages__item--ar {
-  color: #149B6A;
-}
-
-.languages__list .language a {
+.languages__list .languages__link {
   display: block;
-  padding: 5px 10px;
   font-size: 14px;
   color: slategrey;
   text-decoration: none;
-  transition: .3s ease all;
 }
 
-.languages__list .language a:hover {
-  background-color: #dbdbdb;
+.languages__list .languages__link.languages__link--en {
+  color: #21BBFE;
+}
+
+.languages__list .languages__link.languages__link--il {
+  color: #1A7BFF;
+}
+
+.languages__list .languages__link.languages__link--ar {
+  color: #149B6A;
 }
 
 .languages__list.close {
@@ -773,6 +767,14 @@ main {
   color: rgba(255, 255, 255, 0.6) !important;
 }
 
+.page-dark .ss-content {
+  box-shadow: -10px -10px 30px rgba(56, 56, 56, 0.7), 10px 10px 30px #000000;
+}
+
+.page-dark .ss-content .ss-list .ss-option.ss-disabled {
+  background-color: #393939;
+}
+
 .ss-main {
   width: 120px !important;
 }
@@ -795,6 +797,16 @@ main {
 
 .ss-content .ss-list {
   backdrop-filter: blur(10px);
+}
+
+.ss-content .ss-list .ss-option.ss-disabled {
+  color: #999999;
+  background-color: #fafafa;
+}
+
+.ss-content .ss-list .ss-option.ss-highlighted,
+.ss-content .ss-list .ss-option:hover {
+  background-color: #e7e7e7 !important;
 }
 
 header {
@@ -2068,7 +2080,7 @@ footer {
   }
 
   .languages {
-    margin-right: 355px;
+    margin-right: 500px;
   }
 
   .greeting-text {

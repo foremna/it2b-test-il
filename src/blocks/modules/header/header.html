@@ -24,8 +24,8 @@
 
         <!-- libs -->
         <link rel="stylesheet" href="./libs/normalize.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.js"></script>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.css" rel="stylesheet"></link>
+        <link rel="stylesheet" href="./libs/slimselect.min.css">
+        <script src="./libs/slimselect.min.js"></script>
     </head>
     <body class="page-light">
         <!-- Google Tag Manager (noscript) -->
@@ -37,43 +37,9 @@
         <header>
             <div class="header container">
                 <a href="#" class="logotype"><img class="logotype__logo" src="./img/svg/logo.svg" alt="Логотип компании it2b"></a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#about" class="menu__link"><span>О нас</span></a></li>
-                        <li class="menu__item"><a href="#services" class="menu__link"><span>Услуги</span></a></li>
-                        <li class="menu__item"><a href="#contact" class="menu__link"><span>Контакты</span></a></li>
-                    </ul>
-                </nav>
-                <div class="languages">
-                    <select id="single" class="languages__list">
-                        <option value="Russian" class="languages__item languages__item--ru"><a href="#" class="languages__link"><span>Russian</span></a></option>
-                        <option value="English" class="languages__item languages__item--en"><a href="#" class="languages__link"><span>English</span></a></option>
-                        <option value="עִבְרִית" class="languages__item languages__item--il"><a href="#" class="languages__link"><span>עִבְרִית</span></a></option>
-                        <option value="العربية" class="languages__item languages__item--ar"><a href="#" class="languages__link"><span>العربية</span></a></option>
-                    </select>
-                </div>
-                <button class="change-theme change-theme--light">
-                    <svg class="moon">
-                        <use xlink:href="./img/svg/sprites.svg#moon"></use>
-                    </svg>
-                    <svg class="sun">
-                        <use xlink:href="./img/svg/sprites.svg#sun"></use>
-                    </svg>
-                </button>
-                <button class="accessibility">
-                    <svg class="eye">
-                        <use xlink:href="./img/svg/sprites.svg#eye"></use>
-                    </svg>
-                    <svg class="eye-big">
-                        <use xlink:href="./img/svg/sprites.svg#eye-big"></use>
-                    </svg>
-                    <svg class="eye-black">
-                        <use xlink:href="./img/svg/sprites.svg#eye-black"></use>
-                    </svg>
-                    <svg class="eye-black-big">
-                        <use xlink:href="./img/svg/sprites.svg#eye-black-big"></use>
-                    </svg>
-                </button>
+            </nav>
+            <div class="languages">
+                <select id="select-innerHTML" class="languages__list"></select>
             </div>
         </header>
 
