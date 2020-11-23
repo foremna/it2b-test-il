@@ -494,6 +494,7 @@ main {
   box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(174, 174, 192, 0.4);
   border-radius: 100px;
   transition: .3s ease all;
+  z-index: 99;
 }
 
 .show-portfolio .text:before {
@@ -889,7 +890,7 @@ header {
   position: fixed;
   width: 100%;
   backdrop-filter: blur(10px);
-  z-index: 9;
+  z-index: 9999;
 }
 
 .header {
@@ -1043,6 +1044,7 @@ header {
 
 .change-theme:hover {
   box-shadow: inset -10px -10px 10px rgba(255, 255, 255, 0.7), inset 10px 10px 10px rgba(174, 174, 192, 0.3);
+  top: -15px;
 }
 
 .change-theme:hover svg {
@@ -1085,6 +1087,7 @@ header {
 
 .accessibility:hover {
   box-shadow: inset -10px -10px 10px rgba(255, 255, 255, 0.7), inset 10px 10px 10px rgba(174, 174, 192, 0.3);
+  top: -15px;
 }
 
 .accessibility:hover .eye {
@@ -1438,6 +1441,10 @@ footer {
     height: 20px;
   }
 
+  .change-theme:hover {
+    top: -55px;
+  }
+
   .accessibility {
     top: -60px;
     right: 63px;
@@ -1449,6 +1456,10 @@ footer {
     left: 2.5px;
     width: 28px;
     height: 14px;
+  }
+
+  .accessibility:hover {
+    top: -55px;
   }
 
   .footer {
@@ -1769,6 +1780,10 @@ footer {
     height: 30px;
   }
 
+  .change-theme:hover {
+    top: -44px;
+  }
+
   .accessibility {
     top: -49px;
     right: 62px;
@@ -1779,6 +1794,10 @@ footer {
     left: 3.5px;
     width: 29px;
     height: 14px;
+  }
+
+  .accessibility:hover {
+    top: -44px;
   }
 
   .footer .menu-footer__list:not(:last-child) {
@@ -2062,6 +2081,10 @@ footer {
     left: 14px;
   }
 
+  .change-theme:hover {
+    top: -21px;
+  }
+
   .accessibility {
     top: -26px;
     right: 106px;
@@ -2073,6 +2096,10 @@ footer {
     left: 6.5px;
     width: 44px;
     height: 22px;
+  }
+
+  .accessibility:hover {
+    top: -21px;
   }
 
   .footer {
@@ -2274,9 +2301,17 @@ footer {
     right: 282px;
   }
 
+  .change-theme:hover {
+    top: -15px;
+  }
+
   .accessibility {
     top: -20px;
     right: 192px;
+  }
+
+  .accessibility:hover {
+    top: -15px;
   }
 
   .footer {

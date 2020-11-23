@@ -2,7 +2,7 @@ header {
     position: fixed;
     width: 100%;
     backdrop-filter: blur(10px);
-    z-index: 9;
+    z-index: 9999;
 }
 
 .header {
@@ -356,6 +356,23 @@ header {
 
     &:hover {
         box-shadow: inset -10px -10px 10px rgba(255, 255, 255, 0.7), inset 10px 10px 10px rgba(174, 174, 192, 0.3);
+        top: -15px;
+
+        @media screen and (min-width: 1440px) {
+            top: -15px;
+        }
+    
+        @media screen and (min-width: 1024px) {
+            top: -21px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            top: -44px;
+        }
+    
+        @media screen and (min-width: 320px) {
+            top: -55px;
+        }
 
         svg {
             transform: scale(1.1);
@@ -445,6 +462,23 @@ header {
 
     &:hover {
         box-shadow: inset -10px -10px 10px rgba(255, 255, 255, 0.7), inset 10px 10px 10px rgba(174, 174, 192, 0.3);
+        top: -15px;
+
+        @media screen and (min-width: 1440px) {
+            top: -15px;
+        }
+    
+        @media screen and (min-width: 1024px) {
+            top: -21px;
+        }
+    
+        @media screen and (min-width: 768px) {
+            top: -44px;
+        }
+    
+        @media screen and (min-width: 320px) {
+            top: -55px;
+        }
 
         .eye {
             display: none;

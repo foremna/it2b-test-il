@@ -965,6 +965,7 @@ main {
     box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(174, 174, 192, 0.4);
     border-radius: 100px;
     transition: .3s ease all;
+    z-index: 99;
 
     @media screen and (min-width: 1640px) {
         right: 276px;
