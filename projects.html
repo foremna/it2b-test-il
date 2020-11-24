@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>IT2B</title>
+        <!-- Google Tag Manager -->
+        <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-MVFCRBC');
+            </script> -->
+        <!-- End Google Tag Manager -->
+        <meta name="theme-color" content="#fff">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
+        <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
+
+        <!-- libs -->
+        <link rel="stylesheet" href="./libs/normalize.css">
+        <link rel="stylesheet" href="./libs/slimselect.min.css">
+        <script src="./libs/slimselect.min.js"></script>
+    </head>
+    <body class="page-light reverse il">
+        <!-- Google Tag Manager (noscript) -->
+        <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVFCRBC"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            </noscript> -->
+        <!-- End Google Tag Manager (noscript) -->
+
+        <header>
+            <div class="header container">
+                <a href="index.html" class="logotype"><img class="logotype__logo" src="./img/svg/logo.svg" alt="Логотип компании it2b"></a>
+                <button class="hamburger">
+                    <div class="hamburger__line"></div>
+                    <div class="hamburger__line"></div>
+                    <div class="hamburger__line"></div>
+                </button>
+                <nav class="menu menu--close">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#about" class="menu__link"><span>О нас</span></a></li>
+                        <li class="menu__item"><a href="#services" class="menu__link"><span>Услуги</span></a></li>
+                        <li class="menu__item"><a href="#contact" class="menu__link"><span>Контакты</span></a></li>
+                    </ul>
+                    <a href="#" class="logotype"><img class="logotype__logo" src="./img/svg/logo.svg" alt="Логотип компании it2b"></a>
+                </nav>
+                <div class="languages">
+                    <div class="language">
+                        <select id="select-innerHTML" class="language__list"></select>
+                    </div>
+                </div>
+                <button class="change-theme change-theme--light">
+                    <svg class="moon">
+                        <use xlink:href="./img/svg/sprites.svg#moon"></use>
+                    </svg>
+                    <svg class="sun">
+                        <use xlink:href="./img/svg/sprites.svg#sun"></use>
+                    </svg>
+                </button>
+                <button class="accessibility">
+                    <svg class="eye">
+                        <use xlink:href="./img/svg/sprites.svg#eye"></use>
+                    </svg>
+                    <svg class="eye-big">
+                        <use xlink:href="./img/svg/sprites.svg#eye-big"></use>
+                    </svg>
+                    <svg class="eye-black">
+                        <use xlink:href="./img/svg/sprites.svg#eye-black"></use>
+                    </svg>
+                    <svg class="eye-black-big">
+                        <use xlink:href="./img/svg/sprites.svg#eye-black-big"></use>
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <main id="page">
+
+<div class="main-container container">
+	<div class="container-wrapper">
+		<nav class="breadcrumbs">
+			<ul class="breadcrumbs__list">
+				<li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link"><span>Главная</span></a></li>
+				<li class="breadcrumbs__item"><a href="projects.html" class="breadcrumbs__link"><span>Проекты IT2B</span></a></li>
+			</ul>
+		</nav>
+		<div class="projects container">
+			<a href="#" class="project">
+				<img src="./img/png/project1.png" alt="" class="project__image">
+				<span class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+				<button class="project__button"></button>
+			</a>
+			<a href="#" class="project">
+				<img src="./img/png/project2.png" alt="" class="project__image">
+				<span class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+				<button class="project__button"></button>
+			</a>
+			<a href="#" class="project">
+				<img src="./img/png/project3.png" alt="" class="project__image">
+				<span class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+				<button class="project__button"></button>
+			</a>
+			<a href="#" class="project project--soon"></a>
+		</div>
+	</div>
+</div>
+
+
+</main>
+
+        <footer>
+            <div class="footer container">
+                <nav class="menu-footer">
+                    <ul class="menu-footer__list">
+                        <p class="menu-footer__title">Меню</p>
+                        <li class="menu-footer__item"><a href="#" class="menu-footer__link"><span>О нас</span></a></li>
+                        <li class="menu-footer__item"><a href="#" class="menu-footer__link"><span>Услуги</span></a></li>
+                    </ul>
+                    <ul class="menu-footer__list">
+                        <p class="menu-footer__title" id="contact">Контакты</p>
+                        <li class="menu-footer__item"><a href="mailto: it2b.co.il@gmail.com" class="menu-footer__link"><span>it2b.co.il@gmail.com</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+
+        <!-- libs -->
+    </body>
+</html>
