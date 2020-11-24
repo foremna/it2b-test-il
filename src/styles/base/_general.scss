@@ -934,6 +934,10 @@ main {
     position: relative;
     margin-right: 400px;
 
+    @media screen and (min-width: 1640px) {
+        margin-right: 500px;
+    }
+
     @media screen and (min-width: 1440px) {
         margin-right: 350px;
     }

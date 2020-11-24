@@ -2729,6 +2729,10 @@ footer {
     left: -195px;
   }
 
+  .languages {
+    margin-right: 500px;
+  }
+
   .greeting-text {
     margin-top: 230px;
     padding-bottom: 142px;
