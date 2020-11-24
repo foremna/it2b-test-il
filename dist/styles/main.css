@@ -1071,6 +1071,40 @@ body.il .services__item:before {
   filter: drop-shadow(0px 0px 7px #39C3FF);
 }
 
+body.il .input-container input {
+  border-color: #39C3FF;
+  filter: drop-shadow(0px 0px 7px #39C3FF);
+}
+
+body.il .input-container input:focus + .title-input {
+  border-color: #39C3FF;
+}
+
+body.il .input-container input:not(:placeholder-shown) + .title-input {
+  border-color: #39C3FF;
+}
+
+body.il .textarea-container textarea {
+  border-color: #39C3FF;
+  filter: drop-shadow(0px 0px 7px #39C3FF);
+}
+
+body.il .textarea-container textarea:focus + .title-input {
+  border-color: #39C3FF;
+}
+
+body.il .textarea-container textarea:not(:placeholder-shown) + .title-input {
+  border-color: #39C3FF;
+}
+
+body.il .button--primary {
+  background-color: #39C3FF;
+}
+
+body.il footer {
+  background-color: #39C3FF;
+}
+
 .ss-main {
   width: 120px !important;
 }
