@@ -486,23 +486,26 @@ main {
   width: 70px;
 }
 
-.language__list .languages__link {
+.language__list .language__item {
   display: block;
+}
+
+.language__list .language__item.language__item--en .language__link {
+  color: #39C3FF;
+}
+
+.language__list .language__item.language__item--il .language__link {
+  color: #2F80ED;
+}
+
+.language__list .language__item.language__item--ar .language__link {
+  color: #548C78;
+}
+
+.language__list .language__link {
   font-size: 14px;
   color: slategrey;
   text-decoration: none;
-}
-
-.language__list .languages__link.languages__link--en {
-  color: #21BBFE;
-}
-
-.language__list .languages__link.languages__link--il {
-  color: #1A7BFF;
-}
-
-.language__list .languages__link.languages__link--ar {
-  color: #149B6A;
 }
 
 .language__list.close {
@@ -556,7 +559,7 @@ main {
   height: 225px;
   top: -64px;
   left: -62px;
-  background-image: url("../img/svg/text-show-portfolio.svg");
+  background-image: url("/img/svg/text-show-portfolio.svg");
   background-repeat: no-repeat;
   background-size: contain;
   animation: rotation 25s infinite linear;
