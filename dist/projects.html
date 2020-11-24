@@ -1,4 +1,4 @@
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
     <head>
         <meta charset="utf-8">
@@ -27,7 +27,7 @@
         <link rel="stylesheet" href="./libs/slimselect.min.css">
         <script src="./libs/slimselect.min.js"></script>
     </head>
-    <body class="page-light">
+    <body class="page-light reverse il">
         <!-- Google Tag Manager (noscript) -->
         <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVFCRBC"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -36,7 +36,7 @@
 
         <header>
             <div class="header container">
-                <a href="#" class="logotype"><img class="logotype__logo" src="./img/svg/logo.svg" alt="Логотип компании it2b"></a>
+                <a href="index.html" class="logotype"><img class="logotype__logo" src="./img/svg/logo.svg" alt="Логотип компании it2b"></a>
                 <button class="hamburger">
                     <div class="hamburger__line"></div>
                     <div class="hamburger__line"></div>
@@ -51,7 +51,7 @@
                     <a href="#" class="logotype"><img class="logotype__logo" src="./img/svg/logo.svg" alt="Логотип компании it2b"></a>
                 </nav>
                 <div class="languages">
-                    <div class="languages">
+                    <div class="language">
                         <select id="select-innerHTML" class="languages__list"></select>
                     </div>
                 </div>
@@ -82,16 +82,36 @@
 
         <main id="page">
 
-        <div class="main-container">
-			<div class="contacts container">
-				<h2>Contacts</h2>
-				<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur facilis beatae ut sint eveniet cupiditate quas harum odit. Expedita similique, autem quos accusantium ex veritatis doloribus alias fugiat quis quaerat.</span>
-			</div>
-        </div>
+<div class="main-container container">
+	<div class="container-wrapper">
+		<nav class="breadcrumbs">
+			<ul class="breadcrumbs__list">
+				<li class="breadcrumbs__item"><a href="index.html" class="breadcrumbs__link"><span>Главная</span></a></li>
+				<li class="breadcrumbs__item"><a href="projects.html" class="breadcrumbs__link"><span>Проекты IT2B</span></a></li>
+			</ul>
+		</nav>
+		<div class="projects container">
+			<a href="#" class="project">
+				<img src="./img/png/project1.png" alt="" class="project__image">
+				<span class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+				<button class="project__button"></button>
+			</a>
+			<a href="#" class="project">
+				<img src="./img/png/project2.png" alt="" class="project__image">
+				<span class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+				<button class="project__button"></button>
+			</a>
+			<a href="#" class="project">
+				<img src="./img/png/project3.png" alt="" class="project__image">
+				<span class="project__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+				<button class="project__button"></button>
+			</a>
+			<a href="#" class="project project--soon"></a>
+		</div>
+	</div>
+</div>
 
-        
 
-        
 </main>
 
         <footer>
