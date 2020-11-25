@@ -1117,6 +1117,47 @@ body.il footer {
   left: unset;
 }
 
+.reverse .breadcrumbs {
+  margin: 70px 0;
+}
+
+.reverse .breadcrumbs .breadcrumbs__list {
+  flex-direction: row-reverse;
+}
+
+.reverse .breadcrumbs .breadcrumbs__item {
+  position: relative;
+}
+
+.reverse .breadcrumbs .breadcrumbs__item:not(:last-child) {
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.reverse .breadcrumbs .breadcrumbs__item:not(:last-child):before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 12px;
+  right: unset;
+  width: 8px;
+  height: 1px;
+  background-color: #636369;
+  transform: rotate(-45deg);
+}
+
+.reverse .breadcrumbs .breadcrumbs__item:not(:last-child):after {
+  content: "";
+  position: absolute;
+  bottom: 6px;
+  left: 12px;
+  right: unset;
+  width: 8px;
+  height: 1px;
+  background-color: #636369;
+  transform: rotate(45deg);
+}
+
 .reverse .hamburger {
   left: unset;
   right: 10px;
@@ -1821,6 +1862,10 @@ footer {
     transform: scale(-1, 1);
   }
 
+  .reverse .breadcrumbs {
+    margin: 30px 10px;
+  }
+
   .reverse .menu .menu__item:not(:last-child) {
     margin: 0;
     margin-bottom: 15px;
@@ -2248,6 +2293,10 @@ footer {
     right: -71px;
     left: unset;
     transform: rotate(12deg) scale(-1, 1);
+  }
+
+  .reverse .breadcrumbs {
+    margin: 45px 0;
   }
 
   .reverse .menu {
@@ -2968,6 +3017,10 @@ footer {
     right: -124px;
     left: unset;
     transform: rotate(7deg) scale(-1, 1) !important;
+  }
+
+  .reverse .breadcrumbs {
+    margin: 70px 0;
   }
 
   .reverse .menu {
