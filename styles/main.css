@@ -1866,10 +1866,6 @@ footer {
     margin: 30px 10px;
   }
 
-  .reverse .menu .menu__list {
-    flex-direction: column;
-  }
-
   .reverse .menu .menu__item:not(:last-child) {
     margin: 0;
     margin-bottom: 15px;
@@ -3310,6 +3306,10 @@ footer {
 
   .reverse .menu.menu--close {
     display: none;
+  }
+
+  .reverse .menu .menu__list {
+    flex-direction: column;
   }
 
   .menu {
