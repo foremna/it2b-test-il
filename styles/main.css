@@ -1866,6 +1866,10 @@ footer {
     margin: 30px 10px;
   }
 
+  .reverse .menu .menu__list {
+    flex-direction: column;
+  }
+
   .reverse .menu .menu__item:not(:last-child) {
     margin: 0;
     margin-bottom: 15px;
@@ -3297,6 +3301,7 @@ footer {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .reverse .menu {
+    flex-direction: column;
     margin-left: 0;
     margin-right: 0;
     left: unset;
