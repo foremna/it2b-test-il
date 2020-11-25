@@ -559,7 +559,7 @@ main {
   height: 225px;
   top: -64px;
   left: -62px;
-  background-image: url("/img/svg/text-show-portfolio.svg");
+  background-image: url("../img/svg/text-show-portfolio.svg");
   background-repeat: no-repeat;
   background-size: contain;
   animation: rotation 25s infinite linear;
