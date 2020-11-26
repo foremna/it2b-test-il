@@ -676,7 +676,7 @@ main {
 }
 
 .important.important--ru {
-  background-color: #a8a8a8;
+  background: rgba(57, 195, 255, 0.7);
 }
 
 .down-line-right {
@@ -1066,7 +1066,7 @@ body.il .show-portfolio:after {
 }
 
 body.il .important {
-  background-color: #39C3FF;
+  background: rgba(57, 195, 255, 0.7);
 }
 
 body.il .services__item:before {
@@ -1101,11 +1101,11 @@ body.il .textarea-container textarea:not(:placeholder-shown) + .title-input {
 }
 
 body.il .button--primary {
-  background-color: #39C3FF;
+  background: rgba(57, 195, 255, 0.7);
 }
 
 body.il footer {
-  background-color: #39C3FF;
+  background: rgba(57, 195, 255, 0.7);
 }
 
 .reverse .header {
